@@ -2,12 +2,14 @@ public class Bike {
     String model;
     String color;
     double speed;
+    int price;
 
 
-    public Bike(String model, String color, double speed) {
+    public Bike(String model, String color, double speed, int price) {
         this.model = model;
         this.color = color;
         this.speed = speed;
+        this.price = price;
 
     }
 
